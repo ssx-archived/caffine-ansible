@@ -1,0 +1,4 @@
+---
+# application tasks to be customized and to run after the main provision
+#- name: Install project dependancies via 'composer install'
+#  shell: cd /vagrant; composer install

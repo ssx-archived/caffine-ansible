@@ -1,0 +1,10 @@
+- name: Install Node.JS Packages
+  sudo: yes
+  apt: pkg={{ item }} state=latest
+  with_items: node_packages
+
+- name: Install bower package via npm
+  npm: name=bower global=yes
+
+- name: Install gulp package via npm
+  npm: name=gulp@latest global=yes

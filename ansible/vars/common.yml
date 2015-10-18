@@ -1,0 +1,7 @@
+---
+    php_ppa: php5-5.6
+    doc_root: /vagrant/public
+    sys_packages: ["git","imagemagick","beanstalkd"]
+    dist: precise
+    php_packages: ["php5-curl","php5-cli","php5-common","php5-mcrypt","php5-xdebug","php5-mysqlnd","php5-imagick","php5-gd","php5-sqlite"]
+    node_packages: ["nodejs"]
